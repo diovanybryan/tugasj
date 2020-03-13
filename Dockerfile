@@ -1,5 +1,5 @@
 FROM python:2
 
-ADD jenkinsDio.py /
+ADD jenkins.py /
 
-CMD [ "python", "./jenkinsDio.py" ]
+CMD [ "python", "./jenkins.py" ]
